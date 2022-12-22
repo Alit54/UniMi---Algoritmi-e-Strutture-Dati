@@ -1,2 +1,2 @@
-# UniMi---Algoritmi-e-Strutture-Dati
+# UniMi - Algoritmi e Strutture Dati
 Programs made during preparations of the exam
