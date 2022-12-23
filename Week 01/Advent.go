@@ -1,7 +1,7 @@
 /* Author: Simone Alessandro Casciaro
-Date: 12/12/2021 (Program was made by me when it went out)
-Lesson: 1.Extra
-Text: https://adventofcode.com/2021/day/6 */
+	Date: 12/12/2021 (Program was made by me when it went out)
+	Lesson: 1.Extra
+	Text: https://adventofcode.com/2021/day/6 */
 
 package main
 
