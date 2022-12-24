@@ -1,21 +1,21 @@
 /*
-Author: Simone Alessandro Casciaro
-Date: 24/12/2022
-Lesson: 4.1
-Text: Scrivete un programma con l’implementazione di una lista concatenata semplice, seguendo i
-
-	lucidi presentati a lezione (https://lonati.di.unimi.it/algolab-go/22-23/materiale/settimana04/liste-lucidi.pdf). Definite i tipi listNode e linkedList e scrivete queste funzioni:
-	• newNode, che crea un nuovo nodo di lista;
-	• addNewNode, che inserisce un nuovo nodo in testa alla lista;
-	• printList, che stampa una lista;
-	• searchList, che cerca un elemento in una lista;
-	• removeItem, che cancella un item da una lista.
-	Per testare le vostre funzioni scrivete una funzione main che gestisca un insieme dinamico
-	(che variano nel tempo) di interi. Il main deve leggere da standard input una sequenza di istruzioni secondo il formato nella tabella qui sotto, dove n è un intero. I vari elementi sulla riga
-	sono separati da uno o più spazi. Quando una riga è letta, viene eseguita l’operazione associata;
-	le operazioni di stampa sono effettuate sullo standard output, e ogni operazione deve iniziare su
-	una nuova riga.
+	Author: Simone Alessandro Casciaro
+	Date: 24/12/2022
+	Lesson: 4.1
+	Text: Scrivete un programma con l’implementazione di una lista concatenata semplice, seguendo i
+		lucidi presentati a lezione (https://lonati.di.unimi.it/algolab-go/22-23/materiale/settimana04/liste-lucidi.pdf). Definite i tipi listNode e linkedList e scrivete queste funzioni:
+		• newNode, che crea un nuovo nodo di lista;
+		• addNewNode, che inserisce un nuovo nodo in testa alla lista;
+		• printList, che stampa una lista;
+		• searchList, che cerca un elemento in una lista;
+		• removeItem, che cancella un item da una lista.
+		Per testare le vostre funzioni scrivete una funzione main che gestisca un insieme dinamico
+		(che variano nel tempo) di interi. Il main deve leggere da standard input una sequenza di istruzioni secondo il formato nella tabella qui sotto, dove n è un intero. I vari elementi sulla riga
+		sono separati da uno o più spazi. Quando una riga è letta, viene eseguita l’operazione associata;
+		le operazioni di stampa sono effettuate sullo standard output, e ogni operazione deve iniziare su
+		una nuova riga.
 */
+
 package main
 
 import (
